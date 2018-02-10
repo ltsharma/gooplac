@@ -66,7 +66,7 @@ class Gooplac_Admin {
 		// Here we are going to add a section for our setting.
 		add_settings_section(
 		  $this->plugin_name . '-settings-section',
-		  __( 'Google Places Autofill Settings', 'bnspress' ),
+		  __( 'Settings', 'bnspress' ),
 		  array( $this, 'sandbox_add_settings_section' ),
 		  $this->plugin_name . '-settings'
 		);

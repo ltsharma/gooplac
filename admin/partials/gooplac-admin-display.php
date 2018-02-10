@@ -15,13 +15,15 @@
 
 <!-- This file should primarily consist of HTML with a little bit of PHP. -->
 <div id="wrap">
+	<h1>Google Place Autocomplete - GOOPLAC</h1>
+	<hr>
 	<form method="post" action="options.php">
 		<?php
 			settings_fields( $this->plugin_name . '-settings' );
-			do_settings_sections( $this->plugin_name . '-settings' );
-			// print_r ( get_option( 'bnspress-settings'));
-			submit_button();
+			do_settings_sections( $this->plugin_name . '-settings' ); 
+			?>
+		<p class="legend">By default you can use #gooplac-input to any input</p>
+		<?php	submit_button();
 		?>
-		<p class="legend">By default you can yose #gooplac-input to any input</p>
 	</form>
 </div>
