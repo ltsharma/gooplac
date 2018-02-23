@@ -97,7 +97,7 @@ class Gooplac_Admin {
 		  )
 		);
 
-		$type_options = array('geocode','address','establishment' );
+		$type_options = array('geocode','address','establishment','(cities)' );
 
 		add_settings_field(
 		  'complete-type-selectors',
